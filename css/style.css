@@ -1,15 +1,23 @@
-.desafio1 {
-    background-color: aquamarine;
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.desafio2 {
-    background-color: rgb(53, 33, 165);
+.desafio1 {
+    color: orange;
 }
 
 #lista1 {
     color: blueviolet;
+    list-style-type: square;
+    background-color: rgb(255, 0, 106);
 }
 
 #lista2 {
     color: brown;
+    list-style-type: none;
+    color: #054f77;
+    background-color:rgba(74, 16, 150, 0.8)
 }
