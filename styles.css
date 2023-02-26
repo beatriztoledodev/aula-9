@@ -1,8 +1,32 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: face;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Light.ttf');
+    font-weight: 300;
+}
+
+* {
+    font-family: Roboto;
+}
+
 .desafio-1 {
     color: orange;
+    font-weight: 400;
 }
 
 #lista-1 {
+    font
     list-style: none;
     color: #2e42f7;
 }
